@@ -10,7 +10,7 @@ interface HomeProps {
     priceID: string;
     amount: number;
     metadata: {
-      description;
+      description: string;
     };
   };
 }

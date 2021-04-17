@@ -44,6 +44,10 @@ button {
 
 button {
   cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
 }
 
 a {
