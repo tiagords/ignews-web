@@ -6,12 +6,16 @@ export function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <img src="/images/logo.svg" alt="ig news" />
+        <a title="ig news" href="/">
+          <img src="/images/logo.svg" alt="ig news" />
+        </a>
         <nav>
-          <a className={styles.active} href="#">
+          <a title="Home" className={styles.active} href="/">
             Home
           </a>
-          <a href="#">Posts</a>
+          <a title="Posts" href="/posts">
+            Posts
+          </a>
         </nav>
 
         <SignInButton />
